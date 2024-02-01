@@ -5,4 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Editor.View.Window"
         mc:Ignorable="d"
-        Title="Editor" Height="450" Width="800"/>
+        Title="Editor" Height="450" Width="800">
+    <DockPanel>
+        <Menu
+            DockPanel.Dock="Top">
+            <MenuItem
+                Header="File">
+                <MenuItem
+                    Header="Open"/>
+                <Separator/>
+                <MenuItem
+                    Header="Save"/>
+                <Separator/>
+                <MenuItem
+                    Header="Exit"/>
+            </MenuItem>
+            <MenuItem
+                Header="Tools"/>
+            <MenuItem
+                Header="Extensions"/>
+        </Menu>
+        <Grid
+            DockPanel.Dock="Bottom"/>
+    </DockPanel>
+</Window>
