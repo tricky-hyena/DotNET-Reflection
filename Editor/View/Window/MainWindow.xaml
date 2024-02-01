@@ -18,7 +18,8 @@
                     Header="Save"/>
                 <Separator/>
                 <MenuItem
-                    Header="Exit"/>
+                    Header="Exit"
+                    Command="{Binding ExitCommand}"/>
             </MenuItem>
             <MenuItem
                 Header="Tools"/>
