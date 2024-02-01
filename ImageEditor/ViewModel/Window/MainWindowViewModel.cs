@@ -1,11 +1,11 @@
-﻿using Editor.Command;
-using Editor.View.Window;
+﻿using ImageEditor.Command;
+using ImageEditor.View.Window;
 using System.Windows;
 using System.Windows.Input;
 
-namespace Editor.ViewModel.Window
+namespace ImageEditor.ViewModel.Window
 {
-    class MainWindowViewModel : ViewModelBase
+    internal class MainWindowViewModel : ViewModelBase
     {
         public ICommand ExitCommand { get; }
 
@@ -22,7 +22,7 @@ namespace Editor.ViewModel.Window
 
         private void openExtensionsWindow(object parameter)
         {
-            ExtensionsWindow extensionsWindow = new();
+            var extensionsWindow = new ExtensionsWindow();
 
             extensionsWindow.ShowDialog();
         }

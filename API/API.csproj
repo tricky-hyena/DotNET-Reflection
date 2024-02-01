@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IEditorExtension.cs" />
+    <Compile Include="IImageEditorExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VersionAttribute.cs" />
+    <Compile Include="ExtensionVersionAttribute.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

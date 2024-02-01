@@ -3,7 +3,7 @@ using System.Runtime;
 
 namespace API
 {
-    internal class VersionAttribute : Attribute
+    internal class ExtensionVersionAttribute : Attribute
     {
         public int Major { get; }
 
@@ -11,7 +11,7 @@ namespace API
 
         public int Patch { get; }
 
-        public VersionAttribute(int major, int minor, int patch)
+        public ExtensionVersionAttribute(int major, int minor, int patch)
         {
             Major = major;
             Minor = minor;
