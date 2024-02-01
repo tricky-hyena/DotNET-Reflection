@@ -24,7 +24,8 @@
             <MenuItem
                 Header="Tools"/>
             <MenuItem
-                Header="Extensions"/>
+                Header="Extensions"
+                Command="{Binding OpenExtensionsWindowCommand}"/>
         </Menu>
         <Grid
             DockPanel.Dock="Bottom"/>
