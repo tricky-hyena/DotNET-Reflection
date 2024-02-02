@@ -3,7 +3,7 @@ using System.Runtime;
 
 namespace API
 {
-    internal class ExtensionVersionAttribute : Attribute
+    public class ExtensionVersionAttribute : Attribute
     {
         public int Major { get; }
 

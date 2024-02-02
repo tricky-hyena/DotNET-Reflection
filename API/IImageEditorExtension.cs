@@ -2,7 +2,7 @@
 
 namespace API
 {
-    internal interface IImageEditorExtension
+    public interface IImageEditorExtension
     {
         string Title { get; }
 

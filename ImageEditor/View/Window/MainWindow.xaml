@@ -24,7 +24,8 @@
                     Command="{Binding ExitCommand}"/>
             </MenuItem>
             <MenuItem
-                Header="Tools"/>
+                Header="Tools"
+                x:Name="Tools"/>
             <MenuItem
                 Header="Extensions"
                 Command="{Binding OpenExtensionsWindowCommand}"/>
