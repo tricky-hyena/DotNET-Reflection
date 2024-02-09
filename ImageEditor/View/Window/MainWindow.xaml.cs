@@ -72,7 +72,7 @@ namespace ImageEditor.View.Window
         public void OnPluginClick(object sender, EventArgs e)
         {
             IImageEditorExtension plugin = extensions[((System.Windows.Controls.MenuItem)sender).Header as string];
-            plugin.Transform((Bitmap)PictureBox.Image);
+            PictureBox.Image = plugin.Transform((Bitmap)PictureBox.Image);
             PictureBox.Refresh();
         }
     }

@@ -10,6 +10,6 @@ namespace API
 
         string Description { get; }
 
-        void Transform(Bitmap bitmap);
+        Bitmap Transform(Bitmap bitmap);
     }
 }
