@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageEditor", "ImageEditor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExtension", "TestExtension\TestExtension.csproj", "{3B61D16D-4626-4632-BD1D-BF94AA5A8916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monochrome", "Monochrome\Monochrome.csproj", "{F33E06DF-A60B-4C85-9128-2F9BACD580E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3B61D16D-4626-4632-BD1D-BF94AA5A8916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B61D16D-4626-4632-BD1D-BF94AA5A8916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B61D16D-4626-4632-BD1D-BF94AA5A8916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33E06DF-A60B-4C85-9128-2F9BACD580E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33E06DF-A60B-4C85-9128-2F9BACD580E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33E06DF-A60B-4C85-9128-2F9BACD580E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33E06DF-A60B-4C85-9128-2F9BACD580E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
